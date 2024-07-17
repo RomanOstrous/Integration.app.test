@@ -27,6 +27,11 @@
       cursor: pointer;
     }
 
+    &:active{
+      border: 1px solid rgb(224, 228, 247);
+      cursor: pointer;
+    }
+
     &-container {
       display: flex;
       align-items: center;
