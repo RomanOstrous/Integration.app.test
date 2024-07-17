@@ -1,4 +1,3 @@
-import React from 'react';
 import Arrow from '../../assets/icons/arrow.svg';
 import Plus from '../../assets/icons/plus.svg';
 import Edit from '../../assets/icons/edit.svg';
