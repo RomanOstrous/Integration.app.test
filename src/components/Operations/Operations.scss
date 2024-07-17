@@ -1,0 +1,48 @@
+@import "../../styles/utils/mixins";
+
+.operations {
+
+  &__title {
+    @include Roboto-700;
+    margin-bottom: 32px;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 12px;
+    outline: none;
+    background: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(26, 31, 57);
+    border-radius: 12px;
+    background: linear-gradient(180.00deg, rgba(10, 14, 36, 0.9),rgba(10, 14, 36, 0.45) 100%);
+    transition: 0.3s ease;
+
+    &:hover {
+      border: 1px solid rgb(39, 59, 158);
+      cursor: pointer;
+    }
+
+    &-container {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+    }
+
+    &-text {
+      @include Roboto-400;
+    }
+
+    &-img {
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: scale(0.7);
+      }
+    }
+  }
+}

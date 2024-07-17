@@ -1,0 +1,60 @@
+@import "../../styles/utils/mixins";
+
+.contacts {
+  margin-bottom: 96px;
+
+  &__title {
+    @include Roboto-700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    @include helvetica-400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 40px;
+  }
+
+  &__subtitle {
+    @include helvetica-700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 40px;
+  }
+
+  &__container {
+    padding: 12px 24px;
+    background: linear-gradient(#080A1E, #080A1E) padding-box,
+    linear-gradient(to right, #11183C, #E7E9F5, #343958) border-box;
+    border-radius: 14px;
+    border: 1px solid transparent;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+
+    &-row {
+      border-top: 1px solid rgb(26, 31, 57);
+      margin-bottom: px;
+    }
+
+    &-text {
+      @include helvetica-400;
+      font-size: 16px;
+      line-height: 18px;
+
+      &--fira {
+        @include FiraCode-400;
+      }
+    }
+  }
+
+  th, td, tr{
+    padding: 10px 0;
+    text-align: start;
+    width: 289px;
+  }
+}

@@ -1,0 +1,12 @@
+@import "./utils/reset";
+@import "./utils/fonts";
+@import "./utils/mixins";
+
+html {
+  background-color: #080A1E;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
