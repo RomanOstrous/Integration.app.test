@@ -6,6 +6,7 @@ const App = () => {
   return (
     <div className='app'>
       <Contacts />
+        <div className="app__highlight"></div>
       <Operations />
     </div>
   )

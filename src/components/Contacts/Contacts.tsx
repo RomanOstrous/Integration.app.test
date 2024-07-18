@@ -4,12 +4,12 @@ const Contacts = () => {
   return (
     <section className='contacts'>
       <h1 className='contacts__title '>How to work with Contacts in Hubspot API</h1>
-      <h2 className='contacts__text'>
+      <p className='contacts__text'>
         Contacts represent records about people in Hubspot API.
         They are typically <br />
         associated with Companies and Activities such as Emails,
         Meetings, Notes, etc.
-      </h2>
+      </p>
       <h2 className='contacts__subtitle'>Contact Fields</h2>
 
       <div className="contacts__container">

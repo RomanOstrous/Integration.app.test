@@ -6,6 +6,7 @@
   &__title {
     @include Roboto-700;
     font-size: 24px;
+    font-style: normal;
     line-height: 32px;
     margin-bottom: 24px;
   }
@@ -13,21 +14,23 @@
   &__text {
     @include helvetica-400;
     font-size: 18px;
-    line-height: 21px;
+    font-style: normal;
+    line-height: normal;
     margin-bottom: 40px;
   }
 
   &__subtitle {
     @include helvetica-700;
     font-size: 18px;
-    line-height: 21px;
+    font-style: normal;
+    line-height: normal;
     margin-bottom: 40px;
   }
 
   &__container {
     padding: 12px 24px;
     background: linear-gradient(#080A1E, #080A1E) padding-box,
-    linear-gradient(to right, #11183C, #E7E9F5, #343958) border-box;
+    linear-gradient(170deg, #11183C, #E7E9F5 , #343958) border-box;
     border-radius: 14px;
     border: 1px solid transparent;
   }
@@ -44,7 +47,8 @@
     &-text {
       @include helvetica-400;
       font-size: 16px;
-      line-height: 18px;
+      font-style: normal;
+      line-height: normal;
 
       &--fira {
         @include FiraCode-400;

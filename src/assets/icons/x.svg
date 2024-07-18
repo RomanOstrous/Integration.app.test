@@ -9,6 +9,6 @@
 	</defs>
 	<rect id="x" rx="-0.600000" width="22.799999" height="22.799999" transform="translate(0.600000 0.600000)" fill="#FFFFFF" fill-opacity="0"/>
 	<g clip-path="url(#clip74_717)">
-		<path id="Vector" d="M18 6L6 18M6 6L18 18" stroke="#354052" stroke-opacity="1.000000" stroke-width="1.200000" stroke-linejoin="round"/>
+		<path id="Vector" d="M18 6L6 18M6 6L18 18" stroke="#fff" stroke-opacity="1.000000" stroke-width="1.200000" stroke-linejoin="round"/>
 	</g>
 </svg>

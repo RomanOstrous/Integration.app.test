@@ -1,21 +1,24 @@
 @import "../../styles/utils/mixins";
 
 .operations {
+  width: 100%;
 
   &__title {
     @include Roboto-700;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 32px;
     margin-bottom: 32px;
   }
 
-  &__button {
+  &__link {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 20px;
     margin-bottom: 12px;
-    outline: none;
-    background: none;
+    text-decoration: none;
     box-sizing: border-box;
     border: 1px solid rgb(26, 31, 57);
     border-radius: 12px;
@@ -32,6 +35,11 @@
       cursor: pointer;
     }
 
+    &:focus{
+      border: 1px solid rgb(62, 64, 75);
+      cursor: pointer;
+    }
+
     &-container {
       display: flex;
       align-items: center;
@@ -40,6 +48,9 @@
 
     &-text {
       @include Roboto-400;
+      font-size: 20px;
+      font-style: normal;
+      line-height: 28px;
     }
 
     &-img {
